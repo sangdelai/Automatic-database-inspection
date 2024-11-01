@@ -1,0 +1,54 @@
+检查项1:检查空间使用率是否大于90%
+磁盘占用率：0.09
+检查项2:是否存在死锁问题
+无死锁
+检查项3:最大连接数是否大于当前连接数
+resutl_max的值为：151  result_threads的值为35  resutl_max>result_threads连接数没有问题
+检查项4:检查InnoDB buffer命中概率是否大于90% 
+Innodb_buffer_pool_read_requests的值为：1066118620  result_buffer_pool_reads的值为：1388432
+1-Innodb_buffer_pool_read_requests/Innodb_buffer_pool_reads的值为0.9987  InnoDB buffer命中率没有问题
+检查项5:检查key buffer命中概率是否大于85%
+key_read_requests的值为152084.0  key_reads的值为：10.0
+1 - result_key_read/result_key_read_requests的值为：0.99993  key buffer命中率没有问题
+检查项6:检查Innodb_log_waits量
+Innodb_log_waits的值为：0  Innodb_log_waits量没有问题
+检查项7:检查Binlog Cache使用情况是否小于3
+Binlog_cache_disk_use的值为：0  result_Binlog Cache没问题
+检查项8:检查table cache状态量是否大于85%
+Table_open_cache_hits的值为：86352139  result_Table_open_cache_hits的值为：86352139
+Table_open_cache_hits/(Table_open_cache_misses+Table_open_cache_hits)的值为：0.9858629836696955  table cache状态量没问题
+检查项9:检查Thread cache命中率是否大于90%
+Threads_created的值为：3698  Connections的值为：3332280
+1-(Threads_created / Connections)的值为：0.99889  Thread cache命中率没有问题
+慢查询记录没问题，无新增
+2023-12-27T08:20:36.396177Z 0 [ERROR] Can't start server: Bind on TCP/IP port: Address already in use
+2023-12-27T08:20:36.396180Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2023-12-27T08:20:36.396187Z 0 [ERROR] Aborting
+----------------------------------------------------------
+检查项1:检查空间使用率是否大于90%
+磁盘占用率：0.09
+检查项2:是否存在死锁问题
+无死锁
+检查项3:最大连接数是否大于当前连接数
+resutl_max的值为：151  result_threads的值为33  resutl_max>result_threads连接数没有问题
+检查项4:检查InnoDB buffer命中概率是否大于90% 
+Innodb_buffer_pool_read_requests的值为：1098355224  result_buffer_pool_reads的值为：1391820
+1-Innodb_buffer_pool_read_requests/Innodb_buffer_pool_reads的值为0.99873  InnoDB buffer命中率没有问题
+检查项5:检查key buffer命中概率是否大于85%
+key_read_requests的值为172906.0  key_reads的值为：13.0
+1 - result_key_read/result_key_read_requests的值为：0.99992  key buffer命中率没有问题
+检查项6:检查Innodb_log_waits量
+Innodb_log_waits的值为：0  Innodb_log_waits量没有问题
+检查项7:检查Binlog Cache使用情况是否小于3
+Binlog_cache_disk_use的值为：0  result_Binlog Cache没问题
+检查项8:检查table cache状态量是否大于85%
+Table_open_cache_hits的值为：90663720  result_Table_open_cache_hits的值为：90663720
+Table_open_cache_hits/(Table_open_cache_misses+Table_open_cache_hits)的值为：0.9864462450526572  table cache状态量没问题
+检查项9:检查Thread cache命中率是否大于90%
+Threads_created的值为：3836  Connections的值为：3504712
+1-(Threads_created / Connections)的值为：0.99891  Thread cache命中率没有问题
+慢查询记录没问题，无新增
+当月无REEOR错误
+当月无REEOR错误
+当月无REEOR错误
+----------------------------------------------------------
